@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.card {
+	color: #fff;
+	border-radius: 0px;
+	border: none;
+}
+
+#about {
+	font-family: 'Open Sans' ,'ＭＳ ゴシック',sans-serif;
+	font-feature-settings : "palt";
+	font-size: 1.5rem;
+	color: #646464;
+	span {
+		margin: 50% auto;
+	}
+	img {
+		max-width: 575px;
+		width: 100%;
+	}
+}
+#dashboard {
+	color: #fff;
+}
+#userinfo {
+	background: #2ecc71;
+}
+#dbinfo {
+	background: #e74c3c;
+}
+#register {
+	background: #f1c40f;
+}
+#search {
+	background: #3498db;
+	.input-group-addon {
+		border: none;
+		background-color: white;
+	}
+	.form-control {
+		border: none;
+	}
+}
+
+@import 'icons'
