@@ -1,6 +1,6 @@
 <?php
 	require __DIR__ . '/bootstrap.php';
-	require_logined_session();
+	#require_logined_session();
 
 	use mpyw\Cowitter\Client;
 
