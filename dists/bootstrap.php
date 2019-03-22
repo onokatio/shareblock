@@ -1,7 +1,7 @@
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/define.php';
+#require __DIR__ . '/define.php';
 
 session_start();
 
